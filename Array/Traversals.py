@@ -17,4 +17,4 @@ print(minimumvalue)
 total = 0
 for numbers in arr:
     total += numbers
-print(total)
+print(f"Sum of Array : {total}")
