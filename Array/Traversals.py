@@ -18,3 +18,10 @@ total = 0
 for numbers in arr:
     total += numbers
 print(f"Sum of Array : {total}")
+
+arrayeven = [1,2,3,4,6]
+count = 0
+for numbers in arrayeven:
+    if numbers % 2 == 0:
+        count +=1
+print("Total even numbers in ", arrayeven, " is = ", count) 
