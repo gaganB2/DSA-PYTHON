@@ -42,3 +42,11 @@ for num in arr:
     if num < min_val:
         min_val = num
 print(min_val)
+
+# Sum of Array
+total = 0
+
+for num in arr:
+    total += num
+
+print(total)
