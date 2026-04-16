@@ -33,3 +33,12 @@ for num in arr:
     if num>max_val:
         max_val = num
 print(max_val)
+
+# Find Minimum in Array
+arr = [3,7,2,9,4]
+min_val = arr[0]
+num =0
+for num in arr:
+    if num < min_val:
+        min_val = num
+print(min_val)
