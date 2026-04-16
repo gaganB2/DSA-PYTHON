@@ -25,3 +25,11 @@ for numbers in arrayeven:
     if numbers % 2 == 0:
         count +=1
 print("Total even numbers in ", arrayeven, " is = ", count) 
+
+# Find Maximum in Array
+arr = [3,7,2,9,4]
+max_val = arr[0]
+for num in arr:
+    if num>max_val:
+        max_val = num
+print(max_val)
